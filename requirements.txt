@@ -1,0 +1,13 @@
+# Core (required)
+numpy
+pandas
+scipy        # spherical harmonics + variational-Bayes solver
+skyfield     # astronomical ephemeris for the tidal forcing (auto-downloads de421.bsp)
+
+# Notebook / plotting (for the demo only)
+matplotlib
+jupyter
+
+# Optional
+scikit-learn # faster StandardScaler; a pure-numpy fallback is used if absent
+utide        # only for looking up extra constituent frequencies by name
